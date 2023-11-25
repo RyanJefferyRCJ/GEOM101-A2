@@ -1,0 +1,49 @@
+/* css styling sheet. CSS concepts generally learned from
+w3 schools CSS tutorial: https://www.w3schools.com/css/default.asp */
+
+/* Header styling for h1 and h2 */
+h1, h2{
+    color:#3b0000
+}
+
+h1 {
+    font-family: Verdana;
+}
+
+h3 {
+    color:rgb(0, 128, 43);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Body styling */
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffdf29;
+    background-color: #5c380a;
+}
+
+/* Navbar styling, inspired by https://www.w3schools.com/css/css_navbar_horizontal.asp */
+nav {
+    background:#362105;
+    color:#ffdf29;
+    padding: 4px;
+}
+
+nav li {
+    display: inline;
+}
+
+/* internal link styling */
+a {
+    color: #00adad;
+}
+
+a:hover {
+    color:aqua;
+}
+
+/* TableOption styles */
+table, th, td {
+    border: 1px solid;
+    background-color: rgb(78, 25, 25);
+  }
